@@ -31,7 +31,10 @@
 
   <h3 align="center">OMEN-By-HP-15-ax225TX-Hackintosh-EFI</h3>
 
-  本仓库内内容用于.....//TODO
+  本仓库内容适用于暗影精灵 2 Pro 的 基于 OpenCore 的 Hackintosh EFI
+   - 支持系统: macOS BigSur beta 11.0.1 (20B5022a)
+   - OpenCore 版本: OpenCore 0.6.3 commit @f152c95
+   - 最后更新日期: 2020-11-08
 
   **仓库内容归个人所有 转载请标明出处**
 </p>
@@ -40,92 +43,109 @@
 ## 目录
 - [🉑 简要说明](#🉑简要说明)
 - [💻 当前机器配置](#💻当前机器配置)
-- [1️⃣ 使用指南](#1️⃣使用指南)
-  - [配置要求](#)
-  - [安装步骤](#)
-  - [推荐排序](#)
-- [2️⃣ 常见问题](#2️⃣常见问题)
-- [3️⃣ 关于去广告](#3️⃣关于去广告)
-- [4️⃣ 规则目录](#4️⃣规则目录)
-- [5️⃣ 如何参与本项目](#5️⃣如何参与本项目)
-- [6️⃣ 来源与鸣谢](#6️⃣来源与鸣谢)
-- [7️⃣ 许可与说明](#7️⃣许可与说明)
+- [⚙️ 当前情况](#⚙️当前情况)
+- [🏙 预览图片](#🏙预览图片)
+- [⚠️ 已知问题](#⚠️已知问题)
+- [🗂 文件目录](#🗂文件目录)
+- [❓ 有疑问吗](#❓有疑问吗)
+- [〽️ 来源与鸣谢](#〽️来源与鸣谢)
+- [🛣 许可与说明](#🛣许可与说明)
+
 -----
-
-# **🉑 简要说明**
-
-### `♾ Rules 和 Rewrite 部分`
-
-- 国内直连、海外加速
-- Apple 服务(可选择性)加速
-- 海外媒体（部分）服务指定节点
-- 拦截运营商劫持
-- 拦截臭名昭著的欺诈网站（如**思杰马克丁**伪造的一系列软件官网、MacKeeper等）
-- 拦截应用广告
-  ⚠️ 网页广告请使用 Safari 内容拦截器如 [ADGuard](https://apps.apple.com/app/apple-store/id1047223162) 或集成去广告功能浏览器
-
-### `🔙 BackCN 部分`
-
-- 国内媒体服务解锁
-- 拦截应用广告
-  ⚠️ 网页广告请使用 Safari 内容拦截器如 [ADGuard](https://itunes.apple.com/app/apple-store/id1047223162?mt=8) 或集成去广告功能浏览器
-
-### `🌐 公共 DNS 推荐`
-
-    - 119.29.29.29 [腾讯DnsPod+]
-    - 182.254.116.116
-    - 223.5.5.5 [阿里云公共DNS]
-    - 223.6.6.6
 
 # **💻当前机器配置**
 
-# **文件目录**
+| 分类 | 说明 | 备注 |
+|:----:|:----:|:----:|
+| 型号 | OEMN-By-HP-15-ax225TX | 暗影精灵 2 Pro 暗夜绿
+| 主板 | HP 8259 |  
+| CPU | Intel Core™ I5-7300HQ | 七代 I5(Kaby Lake)
+| 内存 | 24GB DDR4 2400 Mhz | 自带 8GB + 16GB
+| 集显 | Intel™ Graphics HD630 | 集显 0x591b0000
+| 独显 | Nvidia™ GTX 1050Ti | 已屏蔽 
+| 蓝牙 | Intel™ Wireless 7265AC | 正常使用
+|有线网卡| Realtek™ RTL8111 | 正常使用
+|无线网卡| Intel™ Wireless 7265AC | 原装网卡,使用 itlwm 正常使用* 
+| 声卡 | Realtek™ ALC295 | AppleAlcID=28
 
+# **⚙️当前情况**
+ - 核心显卡正常使用 注入 id 0x591b0000
+ - FN 按键正常使用,支持亮度调节\键盘灯开启\调节音量
+ - 声卡通过注入 AppleALC = 28 正常使用
+ - 触摸板支持单指\双指\三指手势
+ - 蓝牙正常使用
+ - 无线网卡 使用 AirportItlwm 可正常使用
+ - 隔空投送未试验
+
+# **🏙预览图片**
+
+![version](images/version.png)
+![graphics](images/graphics.png)
+![battery](images/battery.png)
+![bluetooth](images/bluetooth.png)
+![camera](images/camera.png)
+![ethernet](images/ethernet.png)
+![wifi](images/wifi.png)
+
+# **⚠已知问题**
+
+- 由于屏蔽独显 HDMI 外接显示器无法使用
+- 触摸板支持手势通过模拟实现,有时可能出错
+- 有一定几率在通过 OTA 更新系统后触摸板驱动失效的情况,可通过重启解决
+- 在机械硬盘上请勿启用APFS格式(推荐安装到固态硬盘)，Apple官方对机械硬盘支持不佳，会导致卡顿
+- 配置中不包含 **序列号** 等信息,请自行注入
+
+# **🗂文件目录**
+![directory](images/directory.png)
 ```
 Repository
-├── /BackCN/
-├── /Rewrite/
-├── /Rules/
-│  ├── /Advertising/
-│  │  ├── /NormalApp/ -> 常用 App 屏蔽
-│  │  ├── /VideoApp/ -> 视频 App 屏蔽
-│  │  ├── AdReject.list -> 补充规则
-│  │  ├── antiAD-V4.list -> 补充规则
-│  ├── /Games/
-│  │  ├── Game.list -> 游戏规则
-│  ├── /Media/
-│  │  ├── /Domestic/
-│  │  │  ├── ....    -> 详细规则
-│  │  ├── /Foreign/
-│  │  │  ├── ....    -> 详细规则
-│  │  ├── DomesticMedia.list
-│  │  ├── ForeignMedia.list
-│  │  ├── Readme.md
-│  ├── /Region/
-│  ├── /Services/
-│  │  ├── /SNS/   -> SNS 规则
-│  │  ├── ....    -> 详细规则
-├── /Scripts/   -> 内容请参见文件夹内 README
+├── /images/                          -> 部分预览图片
+├── /OC/                              -> OpenCore EFI
+│  ├── /ACPI/                         -> SSDT 文件
+│  │  ├── SSDT-ALS0.aml 
+│  │  ├── SSDT-BAT0.aml               -> 电池校正
+│  │  ├── /..../
+│  │  ├── SSDT-SBUS-MCHC.aml 
+│  ├── /BootStrap/
+│  │  ├── BootStrap.efi   
+│  ├── /Drivers/
+│  │  ├── HfsPlus.efi                 -> 电池校正
+│  │  ├── OpenCanopy.efi              -> 电池校正
+│  │  └── OpenRuntime.efi             -> *必备*
+│  ├── /Kexts/
+│  │  ├── AirportItlwm.kext           -> *Intel无线网卡驱动*
+│  │  ├── AppleALC.kext               -> 声卡注入
+│  │  ├── /..../
+│  │  ├── IntelBluetoothFirmware.kext -> *Intel蓝牙固件*
+│  │  ├── IntelBluetoothInjector.kext -> *Intel蓝牙注入*
+│  │  ├── VoodooInput.kext            -> 触摸板驱动
+│  │  ├── VirtualSMC.kext             -> *必备*
+│  │  ├── Lilu.kext                   -> *必备*
+│  │  ├── RealtekRTL8111.kext         -> *请勿随意升级以造成不良影响*
+│  │  └── WhateverGreen.kext          -> *核显必备*
+│  ├── /Resources/                    -> OpenCore 主题和音效
+│  │  ├── /Image                      -> 主题图标
+│  │  └── /Label                      -> 启动标签
+│  ├── /Tools/                        -> OpenCore 工具
+│  │  └── OpenShell.efi               -> OpenShell.efi
+│  ├── /Config.plist                  -> OC 配置文件
+│  └── /OpenCore.efi                  -> EFI
 ├── LICENSE
-└── Readme.md
+└── README.MD
 ```
 
-# **5️⃣如何参与本项目**
+
+# **❓有疑问吗**
 
 >贡献使开源社区成为一个学习、激励和创造的绝佳场所。你所作的任何贡献都是**非常感谢**的。
-如果你对规则有更好的建议欢迎你提交更改。你可以按如下步骤：
+有疑问请直接预留 issue
 
-1. Fork 此仓库
-2. 单独建立一个分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交规则的变更 (`git commit -m 'Add some AmazingFeature'`)
-4. 将规则推送 (`git push origin feature/AmazingFeature`)
-5. 提交合并申请 (Click `New Pull Request`)
+# **〽️来源与鸣谢**
+- PcBeta 远景论坛  [远景论坛](http://bbs.pcbeta.com)
+- 
 
 
-
-# **6️⃣来源与鸣谢**
-
-# **7️⃣许可与说明**
+# **🛣许可与说明**
 
 - 本项目的所有文件，README 等资源基于一个 [MIT License](LICENSE) 发布，你可以拷贝、再发行本项目的内容, 但是你将必须：
   - 使用**完全相同**的条款和格式发布。
