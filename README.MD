@@ -85,7 +85,7 @@
 ![bluetooth](images/Bluetooth.png)
 ![camera](images/Camera.png)
 ![ethernet](images/Ethernet.png)
-![wifi](images/Wifi.png)
+![wifi](images/wifi.png)
 
 # **⚠已知问题**
 
