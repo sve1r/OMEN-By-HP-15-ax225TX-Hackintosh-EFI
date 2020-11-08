@@ -79,13 +79,13 @@
 
 # **🏙预览图片**
 
-![version](images/version.png)
-![graphics](images/graphics.png)
-![battery](images/battery.png)
-![bluetooth](images/bluetooth.png)
-![camera](images/camera.png)
-![ethernet](images/ethernet.png)
-![wifi](images/wifi.png)
+![version](images/Version.png)
+![graphics](images/Graphics.png)
+![battery](images/Battery.png)
+![bluetooth](images/Bluetooth.png)
+![camera](images/Camera.png)
+![ethernet](images/Ethernet.png)
+![wifi](images/Wifi.png)
 
 # **⚠已知问题**
 
