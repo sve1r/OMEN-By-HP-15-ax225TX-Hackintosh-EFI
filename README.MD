@@ -96,7 +96,7 @@
 - 配置中不包含 **序列号** 等信息,请自行注入
 
 # **🗂文件目录**
-![directory](images/directory.png)
+![directory](images/Directory.png)
 ```
 Repository
 ├── /images/                          -> 部分预览图片
