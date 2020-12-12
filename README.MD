@@ -32,9 +32,9 @@
   <h3 align="center">OMEN-By-HP-15-ax225TX-Hackintosh-EFI</h3>
 
   本仓库内容适用于暗影精灵 2 Pro 的 基于 OpenCore 的 Hackintosh EFI
-   - 支持系统: macOS BigSur beta 11.0.1 (20B5022a)
-   - OpenCore 版本: OpenCore 0.6.3 commit @f152c95
-   - 最后更新日期: 2020-11-08
+   - 支持系统: macOS BigSur 11.0.1 (20B29)
+   - OpenCore 版本: OpenCore 0.6.3 commit @42e04d1
+   - 最后更新日期: 2020-12-12
 
   **仓库内容归个人所有 转载请标明出处**
 </p>
