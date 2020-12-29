@@ -32,9 +32,9 @@
   <h3 align="center">OMEN-By-HP-15-ax225TX-Hackintosh-EFI</h3>
 
   本仓库内容适用于暗影精灵 2 Pro 的 基于 OpenCore 的 Hackintosh EFI
-   - 支持系统: macOS BigSur 11.0.1 (20B29)
-   - OpenCore 版本: OpenCore 0.6.3 commit @42e04d1
-   - 最后更新日期: 2020-12-12
+   - 支持系统: macOS BigSur 11.1 (20C69)
+   - OpenCore 版本: OpenCore Release v0.6.4 commit @7c5f19a
+   - 最后更新日期: 2020-12-29
 
   **仓库内容归个人所有 转载请标明出处**
 </p>
@@ -58,9 +58,10 @@
 | 分类 | 说明 | 备注 |
 |:----:|:----:|:----:|
 | 型号 | OEMN-By-HP-15-ax225TX | 暗影精灵 2 Pro 暗夜绿
-| 主板 | HP 8259 |  
-| CPU | Intel Core™ I5-7300HQ | 七代 I5(Kaby Lake)
-| 内存 | 24GB DDR4 2400 Mhz | 自带 8GB + 16GB
+| 主板 | HP 8259 |  BIOS 版本 F.55 Rev.A
+| CPU | Intel Core™ i5-7300HQ | 七代 I5(Kaby Lake)
+| 内存 | 24GB DDR4 2400 Mhz | 自带 8GB + 后购入 16GB
+| 固态 | SanDisk™ SD8SNAT-128G-1006 | 原厂出厂自带 SATA固态 
 | 集显 | Intel™ Graphics HD630 | 集显 0x591b0000
 | 独显 | Nvidia™ GTX 1050Ti | 已屏蔽 
 | 蓝牙 | Intel™ Wireless 7265AC | 正常使用
@@ -89,6 +90,7 @@
 
 # **⚠已知问题**
 
+- *由于 **未知原因** 连接电源时可能会出现睡眠立即唤醒的问题* =》 可通过 **断开电源连接后合盖睡眠** 或 **关机** 解决
 - 由于屏蔽独显 HDMI 外接显示器无法使用
 - 触摸板支持手势通过模拟实现,有时可能出错
 - 有一定几率在通过 OTA 更新系统后触摸板驱动失效的情况,可通过重启解决
@@ -152,10 +154,8 @@ Repository
   - 请注明原作者信息以及协议声明。
   - 同时请勿**将本项目用于商业用途**，**任何盈利活动都属于商业用途**。
   
-- 本项目的所有代码除另有说明外，均基于MIT License发布。
+- 本项目的所有代码除另有说明外，均基于 MIT License 发布。
 
-- 此处的文字仅用于说明，条款以LICENSE文件中的内容为准。
+- 此处的文字仅用于说明，条款以 LICENSE 文件中的内容为准。
 
 - 请在遵守当地相关法律法规的前提下使用本项目，我们不为使用此项目内容出现问题负任何责任。
-
-
