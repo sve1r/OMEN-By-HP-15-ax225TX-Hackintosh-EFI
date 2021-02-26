@@ -32,9 +32,9 @@
   <h3 align="center">OMEN-By-HP-15-ax225TX-Hackintosh-EFI</h3>
 
   本仓库内容适用于暗影精灵 2 Pro 的 基于 OpenCore 的 Hackintosh EFI
-   - 支持系统: macOS BigSur 11.2 (20D64)
+   - 支持系统: macOS BigSur 11.2.2 (20D80)
    - OpenCore 版本: OpenCore Release v0.6.6 commit @e1e4f29
-   - 最后更新日期: 2021-02-17
+   - 最后更新日期: 2021-02-26
 
   **仓库内容归个人所有 转载请标明出处**
 </p>
@@ -61,7 +61,7 @@
 | 主板 | HP 8259 |  BIOS 版本 F.55 Rev.A
 | CPU | Intel Core™ i5-7300HQ | 七代 I5(Kaby Lake)
 | 内存 | 24GB DDR4 2400 Mhz | 自带 8GB + 后购入 16GB
-| 固态 | SanDisk™ SD8SNAT-128G-1006 | 原厂出厂自带 SATA固态 
+| 固态 | KIOXIA-EXCERIA PLUS G2 SSD | 更换 铠侠™ RD20 NVME SSD
 | 集显 | Intel™ Graphics HD630 | 集显 0x591b0000
 | 独显 | Nvidia™ GTX 1050Ti | 已屏蔽 
 | 蓝牙 | Intel™ Wireless 7265AC | 正常使用
