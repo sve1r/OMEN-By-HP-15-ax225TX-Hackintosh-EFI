@@ -1230,7 +1230,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02711301CDJ1JH1H</string>
+			<string>/string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
@@ -1242,9 +1242,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro14,3</string>
 			<key>SystemSerialNumber</key>
-			<string>C02SLHACGVC1</string>
+			<string></string>
 			<key>SystemUUID</key>
-			<string>5AD38565-CB8E-4F0F-8AAE-5292D5E08CD8</string>
+			<string></string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -1261,9 +1261,9 @@
 			<key>BoardManufacturer</key>
 			<string>Apple Inc.</string>
 			<key>BoardProduct</key>
-			<string>Mac-551B86E5744E2388</string>
+			<string></string>
 			<key>BoardSerialNumber</key>
-			<string>C027444034NJ1JH1H</string>
+			<string></string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -1273,7 +1273,7 @@
 			<key>ChassisManufacturer</key>
 			<string>Apple Inc.</string>
 			<key>ChassisSerialNumber</key>
-			<string>C02SLHACGVC1</string>
+			<string></string>
 			<key>ChassisType</key>
 			<integer>10</integer>
 			<key>ChassisVersion</key>
@@ -1297,9 +1297,9 @@
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C02SLHACGVC1</string>
+			<string></string>
 			<key>SystemUUID</key>
-			<string>5AD38565-CB8E-4F0F-8AAE-5292D5E08CD8</string>
+			<string></string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
