@@ -24,10 +24,6 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <h1>⚠️重要警告⚠️</h1>
-  <h2>由于 xhciportlimit 失效的问题,可能会出现 USB 鼠标\U盘等设备无法使用的问题.为此,最新版本已将该选项进行关闭,等待重新定制 USB,如果您的 USB 设备出现了某些问题,可以自行参考远景论坛中的相关操作进行解决</h2>
-</p>
-<p align="center">
   <a href="https://github.com/sve1r/Rules-For-Quantumult-X/">
     <img src="images/logo.png" alt="Logo" width="160" height="160">
   </a>
@@ -35,9 +31,9 @@
   <h3 align="center">OMEN-By-HP-15-ax225TX-Hackintosh-EFI</h3>
 
   本仓库内容适用于暗影精灵 2 Pro 的 基于 OpenCore 的 Hackintosh EFI
-   - 支持系统: macOS BigSur 11.3.1 (20E241)
-   - OpenCore 版本: OpenCore Release v0.6.9 commit <a href="https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.9">@65cc81b</a>
-   - 最后更新日期: 2021-05-07
+   - 支持系统: macOS BigSur 11.4 (20F71)
+   - OpenCore 版本: OpenCore Release v0.7.0 commit <a href="https://github.com/acidanthera/OpenCorePkg/releases/tag/0.7.0">@b498683</a>
+   - 最后更新日期: 2021-06-08
 
   **仓库内容归个人所有 转载请标明出处**
 </p>
