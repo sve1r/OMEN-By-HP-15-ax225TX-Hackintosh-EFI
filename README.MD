@@ -32,8 +32,8 @@
 
   本仓库内容适用于暗影精灵 2 Pro 的 基于 OpenCore 的 Hackintosh EFI
    - 支持系统: macOS BigSur 11.5.2 (20G95)
-   - OpenCore 版本: OpenCore Release v0.7.2 commit <a href="https://github.com/acidanthera/OpenCorePkg/releases/tag/0.7.2">@ff5ad67</a>
-   - 最后更新日期: 2021-08-23
+   - OpenCore 版本: OpenCore Release v0.7.3 commit <a href="https://github.com/acidanthera/OpenCorePkg/releases/tag/0.7.3">@07cb6b6</a>
+   - 最后更新日期: 2021-09-07
 
   **仓库内容归个人所有 转载请标明出处**
 </p>
