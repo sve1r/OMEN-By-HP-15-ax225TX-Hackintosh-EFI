@@ -1,6 +1,15 @@
 
 # OMEN-By-HP-15-ax225TX-Hackintosh-EFI | Sveir Dev.
 
+```
+升级至 macOS 12 后 可能出现 苹果读条长达 2 分钟以上等情况
+原因未知,待修复
+请暂时不要升级至 macOS 12 !
+```
+
+
+---
+
 <!-- PROJECT SHIELDS -->
 
 ```
@@ -31,9 +40,9 @@
   <h3 align="center">OMEN-By-HP-15-ax225TX-Hackintosh-EFI</h3>
 
   本仓库内容适用于暗影精灵 2 Pro 的 基于 OpenCore 的 Hackintosh EFI
-   - 支持系统: macOS Monterey 12.0.1 (21A559)
-   - OpenCore 版本: OpenCore Release v0.7.5 commit <a href="https://github.com/acidanthera/OpenCorePkg/releases/tag/0.7.5">@eab5149</a>
-   - 最后更新日期: 2021-12-03
+   - 支持系统: macOS Monterey 12.1 (21C52)
+   - OpenCore 版本: OpenCore Release v0.7.9 commit <a href="https://github.com/acidanthera/OpenCorePkg/releases/tag/0.7.9">@6fdd6da</a>
+   - 最后更新日期: 2022-03-27
 
   **仓库内容归个人所有 转载请标明出处**
 </p>
