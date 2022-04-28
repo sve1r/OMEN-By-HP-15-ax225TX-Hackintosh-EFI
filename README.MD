@@ -1,13 +1,6 @@
 
 # OMEN-By-HP-15-ax225TX-Hackintosh-EFI | Sveir Dev.
 
-```
-升级至 macOS 12 后 可能出现 苹果读条长达 2 分钟以上等情况
-原因未知,待修复
-请暂时不要升级至 macOS 12 !
-```
-
-
 ---
 
 <!-- PROJECT SHIELDS -->
