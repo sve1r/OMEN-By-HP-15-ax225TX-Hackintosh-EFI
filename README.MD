@@ -1,5 +1,7 @@
 
 # OMEN-By-HP-15-ax225TX-Hackintosh-EFI | Sveir Dev.
+---
+中文 | [English](README_en-US.MD)
 
 ---
 
