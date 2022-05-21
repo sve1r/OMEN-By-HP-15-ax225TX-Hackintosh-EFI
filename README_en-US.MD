@@ -36,7 +36,7 @@ English | [Chinese](README.MD)
   <h3 align="center">OMEN-By-HP-15-ax225TX-Hackintosh-EFI</h3>
 
   This repository contains the OpenCore-based Hackintosh EFI for the OMEN-By-HP 15-ax225Tx.
-   - Latest Supported Version: macOS Monterey 12.1 (21C52)
+   - Latest Supported Version: macOS Monterey 12.3.1 (21E258)
    - OpenCore Version: OpenCore Release v0.8.0 commit <a href="https://github.com/acidanthera/OpenCorePkg/releases/tag/0.8.0">@6fdd6da</a>
    - Latest Update: 2022-05-20
 
