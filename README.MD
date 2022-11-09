@@ -1,5 +1,7 @@
 
 # OMEN-By-HP-15-ax225TX-Hackintosh-EFI | Sveir Dev.
+
+# 由于近期长期出差, 电脑不在身边, 更新节奏会慢一些, 如果有需求升级 最新版本, 请手动升级
 ---
 中文 | [English](README_en-US.MD)
 
