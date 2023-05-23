@@ -1,5 +1,7 @@
 
 # OMEN-By-HP-15-ax225TX-Hackintosh-EFI | Sveir Dev.
+
+# 由于近期长期出差, 电脑不在身边, 更新节奏会慢一些, 如果有需求升级 最新版本, 请手动升级
 ---
 中文 | [English](README_en-US.MD)
 
@@ -35,9 +37,9 @@
   <h3 align="center">OMEN-By-HP-15-ax225TX-Hackintosh-EFI</h3>
 
   本仓库内容适用于暗影精灵 2 Pro 的 基于 OpenCore 的 Hackintosh EFI
-   - 支持系统: macOS Monterey 12.3.1 (21E258)
-   - OpenCore 版本: OpenCore Release v0.8.0 commit <a href="https://github.com/acidanthera/OpenCorePkg/releases/tag/0.8.0">@6fdd6da</a>
-   - 最后更新日期: 2022-05-20
+   - 支持系统: macOS Monterey 12.5 (21G72)
+   - OpenCore 版本: OpenCore Release v0.8.3 commit <a href="https://github.com/acidanthera/OpenCorePkg/releases/tag/0.8.3">@c9ba16f</a>
+   - 最后更新日期: 2022-08-30
 
   **仓库内容归个人所有 转载请标明出处**
 </p>
