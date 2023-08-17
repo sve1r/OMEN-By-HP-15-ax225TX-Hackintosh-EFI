@@ -38,8 +38,8 @@
 
   本仓库内容适用于暗影精灵 2 Pro 的 基于 OpenCore 的 Hackintosh EFI
    - 支持系统: macOS Monterey 12.5 (21G72)
-   - OpenCore 版本: OpenCore Release v0.8.3 commit <a href="https://github.com/acidanthera/OpenCorePkg/releases/tag/0.8.3">@c9ba16f</a>
-   - 最后更新日期: 2022-08-30
+   - OpenCore 版本: OpenCore Release v0.9.2 commit <a href="https://github.com/acidanthera/OpenCorePkg/releases/tag/0.9.2">@fe77706</a>
+   - 最后更新日期: 2023.05.23
 
   **仓库内容归个人所有 转载请标明出处**
 </p>
