@@ -1,2 +1,6 @@
+# macOS Folder
 .DS_Store
 /.DS_Store
+# JetBrains Folder
+.idea
+/.idea
