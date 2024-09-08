@@ -730,6 +730,42 @@
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>BundlePath</key>
+				<string>IntelBluetoothInjector.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/IntelBluetoothInjector</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>BundlePath</key>
+				<string>IntelBTPatcher.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/IntelBTPatcher</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>BundlePath</key>
 				<string>IntelBluetoothFirmware.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -1369,9 +1405,9 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string></string>
+			<string>C02025301QX0000JC</string>
 			<key>ProcessorType</key>
-			<integer>0</integer>
+			<integer>1793</integer>
 			<key>ROM</key>
 			<data></data>
 			<key>SpoofVendor</key>
@@ -1379,66 +1415,66 @@
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>MacBookPro14,3</string>
+			<string>MacBookPro16,3</string>
 			<key>SystemSerialNumber</key>
-			<string></string>
+			<string>C02CW0P7P3XY</string>
 			<key>SystemUUID</key>
-			<string></string>
+			<string>5C31B009-BBF0-458E-AA36-9721273DA739</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
 			<key>BIOSReleaseDate</key>
-			<string>12/19/2018</string>
+			<string>10/05/2023</string>
 			<key>BIOSVendor</key>
-			<string>Apple Inc.</string>
+			<string></string>
 			<key>BIOSVersion</key>
-			<string>MBP143.88Z.F000.B00.1812191256</string>
+			<string>2020.41.1.0.0</string>
 			<key>BoardAssetTag</key>
 			<string>Base Board Asset Tag</string>
 			<key>BoardLocationInChassis</key>
 			<string>Part Component</string>
 			<key>BoardManufacturer</key>
-			<string>Apple Inc.</string>
+			<string></string>
 			<key>BoardProduct</key>
-			<string></string>
+			<string>Mac-E7203C0F68AA0004</string>
 			<key>BoardSerialNumber</key>
-			<string></string>
+			<string>C02025301QX0000JC</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
-			<string>MacBookPro14,3</string>
+			<string>MacBookPro16,3</string>
 			<key>ChassisAssetTag</key>
-			<string>MacBook-Aluminum</string>
+			<string>Asset Tag#</string>
 			<key>ChassisManufacturer</key>
-			<string>Apple Inc.</string>
-			<key>ChassisSerialNumber</key>
 			<string></string>
+			<key>ChassisSerialNumber</key>
+			<string>C02CW0P7P3XY</string>
 			<key>ChassisType</key>
-			<integer>10</integer>
+			<integer>9</integer>
 			<key>ChassisVersion</key>
-			<string>Mac-551B86E5744E2388</string>
+			<string>Mac-E7203C0F68AA0004</string>
 			<key>FirmwareFeatures</key>
-			<data>fvUP/wAAAAA=</data>
+			<data>ZvCv/QgAAAA=</data>
 			<key>FirmwareFeaturesMask</key>
-			<data>f/8f/wAAAAA=</data>
+			<data>f////wgAAAA=</data>
 			<key>PlatformFeature</key>
-			<integer>26</integer>
+			<integer>50</integer>
 			<key>ProcessorType</key>
-			<integer>1797</integer>
+			<integer>1793</integer>
 			<key>SmcVersion</key>
 			<data></data>
 			<key>SystemFamily</key>
 			<string>MacBook Pro</string>
 			<key>SystemManufacturer</key>
-			<string>Apple Inc.</string>
+			<string></string>
 			<key>SystemProductName</key>
-			<string>MacBookPro14,3</string>
+			<string>MacBookPro16,3</string>
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string></string>
+			<string>C02CW0P7P3XY</string>
 			<key>SystemUUID</key>
-			<string></string>
+			<string>5C31B009-BBF0-458E-AA36-9721273DA739</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
@@ -1539,6 +1575,30 @@
 				<false/>
 				<key>Path</key>
 				<string>OpenRuntime.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>LoadEarly</key>
+				<false/>
+				<key>Path</key>
+				<string>ResetNvramEntry.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>LoadEarly</key>
+				<false/>
+				<key>Path</key>
+				<string>OpenVariableRuntimeDxe.efi</string>
 			</dict>
 			<dict>
 				<key>Arguments</key>

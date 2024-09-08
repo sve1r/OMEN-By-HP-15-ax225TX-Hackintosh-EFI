@@ -48,9 +48,9 @@
 
 本仓库内容适用于暗影精灵 2 Pro 的 基于 OpenCore v1.0.1 的 Hackintosh EFI
 
-- 支持系统: macOS Sonoma 14.6 (23G93)
-- OpenCore 版本: OpenCore Release v0.9.2 commit <a href="https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.1">@9d30e2b</a>
-- 最后更新日期: 2024.08.17
+- 支持系统: macOS Sonoma 14.6.1 (23G93)
+- OpenCore 版本: OpenCore Release v1.0.1 commit <a href="https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.1">@9d30e2b</a>
+- 最后更新日期: 2024.09.08
 
 **仓库内容归个人所有 转载请标明出处**
 

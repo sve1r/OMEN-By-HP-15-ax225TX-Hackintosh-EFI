@@ -38,9 +38,9 @@ English | [Chinese](README.MD)
 
 This repository contains the OpenCore-based Hackintosh EFI for the OMEN-By-HP 15-ax225Tx.
 
-- Latest Supported Version: macOS Sonoma 14.6 (23G93)
-- OpenCore Version: OpenCore Release v0.9.2 commit <a href="https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.1">@9d30e2b</a>
-- Latest Update: 2024.08.17
+- Latest Supported Version: macOS Sonoma 14.6.1 (23G93)
+- OpenCore Version: OpenCore Release v1.0.1 commit <a href="https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.1">@9d30e2b</a>
+- Latest Update: 2024.09.08
 
 **This Project is licensed under the [MIT](LICENSE) License**
 
